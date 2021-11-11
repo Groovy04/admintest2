@@ -1,0 +1,23 @@
+
+{% extends "base.html"%}
+
+{%block content%}
+{% for message in get_flashed_messages() %}
+<div class="alert alert-success" role="alert">{{message}}</div>
+{% endfor %}
+
+
+<h4>Welcome to Asistal - Assist System</h4>
+<h6><i>Designed For Better Performance</i></h6>
+</br>
+<p>This system is designed for assisting the better performance of Asistal</p>
+
+<p>For accessing the entry screens, you will need to login with your password.</p>
+<p><b>Please use login link for entering the system.</b></p>
+
+</br>
+<p>Wish you a nice user experience.</p>
+
+<p>Stay healthy!!!</p>
+
+{%endblock%} 
